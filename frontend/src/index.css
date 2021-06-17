@@ -1,0 +1,126 @@
+main {
+  /* min-height: 120vh; */
+  min-height: 78vh;
+  max-height: 550vh;
+}
+
+.footer {
+   /* position: fixed; */
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+}
+.text-dark{
+  color: rgba(0,0,0,.85) !important;
+}
+
+.bg-dark, .btn-dark, .badge-primary, .dropdown-item.active, .dropdown-item:active {
+    /* background-color: rgba(0,0,0,.85) !important; */
+    background-color: #0a66c2 !important;
+    border: 1px solid  #0a66c2 !important;
+}
+
+
+.bg-light {
+    /* background-color: #d9f1ff!important; */
+    background-color: #e9f3f9!important;
+    border: 1px solid  #e9f3f9 !important;
+}
+
+.table-bordered td, .table-bordered th {
+    border: 1px solid #c7e9fd;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #e9f3f9;
+}
+ 
+.table-hover tbody tr:hover {
+    color: #000;
+    background-color:  #d9f1ff;
+    /* background-color: #0a66c2; */
+}
+
+.table thead th {
+  border-bottom: 2px solid #c7e9fd;
+}
+
+.bg-custom-info{
+  background-color: hsla(0,0%,100%,.3) !important;
+}
+
+/* Pagination */
+.page-item.active .page-link {
+    background-color: #0a66c2;
+    border-color: #0a66c2;
+}
+.page-link:hover, .page-link, a {
+    color: #0a66c2 ;
+}
+a:hover{
+  border-color: #0a66c2;
+}
+.bg-secondary{
+  background-color: #444 !important;
+}
+/* h3{
+  padding: 1rem 0;
+} */
+h1{
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+h1{
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+.btn.disabled, .btn:disabled {
+    cursor: not-allowed;
+}
+
+.no-border{
+   border: none !important;
+}
+
+/* Only for minty.css */
+/* .form-control, .btn{
+  border-radius: 0.2rem !important;
+} */
+
+/* carousel */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-caption h2, .carousel-control-next, .carousel-control-prev, .carousel-indicators li {
+  color: #000;
+}
+
+.carousel img {
+  height: 300px;
+  padding: 30px;
+  margin: 40px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.carousel a {
+  margin: 0 auto;
+}
+@media (max-width: 900px) {
+  .carousel-caption h2 {
+    font-size: 2.5vw;
+  }
+}
